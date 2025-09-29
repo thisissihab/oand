@@ -38,6 +38,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.video-container {
+  max-width: 100%;
+  overflow: hidden;
+}
+.video-container img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
 
 /* Modern Button Styles */
 .button {
