@@ -39,14 +39,19 @@ body {
 }
 
 .video-container {
-  max-width: 70%;
-  overflow: hidden;
+  width: 70%;              /* take 70% of total width */
+  margin: 0 auto;          /* center horizontally */
+  display: flex;
+  justify-content: center; /* center content inside */
 }
+
 .video-container img {
-  width: 70%;
-  height: auto;
-  border: 1px solid #ccc;
+  width: 100%;             /* image fills container */
+  height: auto;            /* keep aspect ratio */
+  border: 2px solid #ccc;  /* optional border */
+  border-radius: 8px;      /* optional rounded corners */
 }
+
 
 
 /* Modern Button Styles */
